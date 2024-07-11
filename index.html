@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <title>Aggrestuko QUIZZ</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="file.js"></script>
+</head>
+<body>
+
+    <!-- DIV Container - Para englobar as outras divs, tamanho total da página -->
+    <div id="container">
+
+        <!-- DIV Topo - Para o título e imagens -->
+        <div id="topo_titulo">
+            <img src="imagem/aggretsuko (1).png" alt="Títlo" id="imagem_titulo" />
+        </div>
+
+
+        <!-- DIV Perguntas - Para os cards de perguntas -->
+        <div id="meio_perguntas">
+
+                    <div class="gaps_perguntas_laterais">
+                        
+                    </div>
+
+            <div class="card_perguntas">
+               
+                <label id="label_pergunta">Pergunta 1</label><br>
+                <label> Qual animal Retsuko é?</label>
+            </div>
+
+                    <div class="gaps_perguntas_meio">
+
+                    </div>
+
+
+            <div class="card_perguntas">
+                <label id="label_pergunta">Pergunta 2</label><br>
+                <label> Quantas temporadas tem o anime Aggrestuko?</label>
+            </div>
+            
+                    <div class="gaps_perguntas_meio">
+
+                    </div>
+
+            <div class="card_perguntas">
+                <label id="label_pergunta">Pergunta 3</label><br>
+                <label> Quando anime Aggrestuko lançou?</label>
+            </div>
+
+                    <div class="gaps_perguntas_laterais">
+
+                    </div>
+
+        </div>
+
+
+        <!-- DIV Labels - Para as labels informativas de escolha -->
+        <div id="meio_labels">
+            <div id="escolha_letras">
+            <label id="escolhas" for="">Escolha sua resposta</label>
+            
+            <label id="escolhas" for="">Escolha sua resposta</label>
+            
+            <label id="escolhas" for="">Escolha sua resposta</label>
+            </div>
+        </div>
+
+
+        <!-- DIV Selects - Para os menus de select com as respostas -->
+        <div id="meio_selects">
+
+                
+            <select id="pergunta_um">
+
+        
+                <option value="2">Reposta</option>
+                <option value="0">Guaxinim</option>
+                <option value="0">Panda</option>
+                <option value="1">Panda-vermelho</option>
+        
+            </select>
+           
+            <select id="pergunta_dois">
+
+                <option value="2">Reposta</option>
+                <option value="0">Duas temporadas</option>
+                <option value="1">Cinco temporadas</option>
+                <option value="0">Três temporadas</option>
+        
+            </select>
+            
+            <select id="pergunta_tres">
+
+        
+                <option value="2">Resposta</option>
+                <option value="1">20 de abril de 2018</option>
+                <option value="0">32 de março de 2019</option>
+                <option value="0">05 de setembro de 2016</option>
+        
+            </select>
+            
+
+        </div>
+
+
+        <!-- DIV Resultado - Para a pontuação, resultado e botão de gerar pontos -->
+        <div id="baixo_resultado">
+            <div class="footer">
+                <img id="imagem_pontuacao" src="imagem/download (3).png" alt="">
+                <label id="label_pontuacao">Sua pontuação</label>
+                <input id="input_nota_final">
+                <button id="botao" type="button" onclick="enviar()">Ver nota!</button>
+            </div>
+            
+
+        </div>
+
+    </div>
+
+    
+
+</body>
+</html>
